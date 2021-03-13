@@ -346,6 +346,9 @@ namespace FilterDataGrid
                     CollectionViewSource.Filter = Filter;
                 }
 
+                // Subscribe collection changes with due to updating filter / refresh, etc. on CollectionView Source
+                CollectionViewSource.CollectionChanged += (sender, args) => { ItemsSourceCount = Items.Count; OnPropertyChanged("ItemsSourceCount"); };
+
                 ItemsSourceCount = Items.Count;
                 OnPropertyChanged("ItemsSourceCount");
 
