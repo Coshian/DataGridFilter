@@ -12,7 +12,7 @@ using System.Windows.Markup;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Macabies Gilles")]
 [assembly: AssemblyProduct("FilterDataGrid")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright © 2021 Gilles Macabies")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -39,7 +39,7 @@ using System.Windows.Markup;
                                               // dans l'application ou dans l'un des dictionnaires de ressources spécifiques à un thème)
 )]
 
-[assembly: XmlnsDefinition("http://control.filterdatagrid.com/2021", "FilterDataGrid")]
+[assembly: XmlnsDefinition("http://filterdatagrid.control.com/2021", "FilterDataGrid", AssemblyName="FilterDataGrid")]
 
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
@@ -56,6 +56,6 @@ using System.Windows.Markup;
 // see https://marinovdh.wordpress.com/2018/10/22/68/
 // for the incremental version, modified in the project file, set true to false : <Deterministic>false</Deterministic>
 
-[assembly: AssemblyVersion("1.1.*")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]
 [assembly: NeutralResourcesLanguage("")]
